@@ -1,0 +1,21 @@
+{
+  "name": "Sanse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE-ENV=developement nodemon app",
+    "start": "cross-env NODE-ENV=developement node app"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7",
+    "nodemon": "^2.0.12"
+  }
+}
